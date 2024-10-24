@@ -12,10 +12,10 @@
 		EFDFA5222CCA182500044C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDFA5212CCA182500044C67 /* Assets.xcassets */; };
 		EFDFA5252CCA182500044C67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDFA5242CCA182500044C67 /* Preview Assets.xcassets */; };
 		EFDFA5272CCA182500044C67 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA5262CCA182500044C67 /* Persistence.swift */; };
-		EFDFA52A2CCA182500044C67 /* CordeDataTarea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA5282CCA182500044C67 /* CordeDataTarea.xcdatamodeld */; };
 		EFDFA5342CCA182500044C67 /* CordeDataTareaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA5332CCA182500044C67 /* CordeDataTareaTests.swift */; };
 		EFDFA53E2CCA182500044C67 /* CordeDataTareaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA53D2CCA182500044C67 /* CordeDataTareaUITests.swift */; };
 		EFDFA5402CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA53F2CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift */; };
+		EFDFA54E2CCA186B00044C67 /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA54C2CCA186B00044C67 /* Products.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +42,12 @@
 		EFDFA5212CCA182500044C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDFA5242CCA182500044C67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFDFA5262CCA182500044C67 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		EFDFA5292CCA182500044C67 /* CordeDataTarea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CordeDataTarea.xcdatamodel; sourceTree = "<group>"; };
 		EFDFA52F2CCA182500044C67 /* CordeDataTareaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CordeDataTareaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDFA5332CCA182500044C67 /* CordeDataTareaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordeDataTareaTests.swift; sourceTree = "<group>"; };
 		EFDFA5392CCA182500044C67 /* CordeDataTareaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CordeDataTareaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDFA53D2CCA182500044C67 /* CordeDataTareaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordeDataTareaUITests.swift; sourceTree = "<group>"; };
 		EFDFA53F2CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordeDataTareaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFDFA54D2CCA186B00044C67 /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 				EFDFA51F2CCA182300044C67 /* ContentView.swift */,
 				EFDFA5212CCA182500044C67 /* Assets.xcassets */,
 				EFDFA5262CCA182500044C67 /* Persistence.swift */,
-				EFDFA5282CCA182500044C67 /* CordeDataTarea.xcdatamodeld */,
 				EFDFA5232CCA182500044C67 /* Preview Content */,
+				EFDFA54C2CCA186B00044C67 /* Products.xcdatamodeld */,
 			);
 			path = CordeDataTarea;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 				EFDFA5272CCA182500044C67 /* Persistence.swift in Sources */,
 				EFDFA5202CCA182300044C67 /* ContentView.swift in Sources */,
 				EFDFA51E2CCA182300044C67 /* CordeDataTareaApp.swift in Sources */,
-				EFDFA52A2CCA182500044C67 /* CordeDataTarea.xcdatamodeld in Sources */,
+				EFDFA54E2CCA186B00044C67 /* Products.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,13 +592,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EFDFA5282CCA182500044C67 /* CordeDataTarea.xcdatamodeld */ = {
+		EFDFA54C2CCA186B00044C67 /* Products.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EFDFA5292CCA182500044C67 /* CordeDataTarea.xcdatamodel */,
+				EFDFA54D2CCA186B00044C67 /* Products.xcdatamodel */,
 			);
-			currentVersion = EFDFA5292CCA182500044C67 /* CordeDataTarea.xcdatamodel */;
-			path = CordeDataTarea.xcdatamodeld;
+			currentVersion = EFDFA54D2CCA186B00044C67 /* Products.xcdatamodel */;
+			name = Products.xcdatamodeld;
+			path = /Users/josuearreola/Documents/iOS/CordeDataTarea/CordeDataTarea/Products.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
