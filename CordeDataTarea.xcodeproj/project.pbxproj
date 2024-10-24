@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDFA51E2CCA182300044C67 /* CordeDataTareaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA51D2CCA182300044C67 /* CordeDataTareaApp.swift */; };
+		EFDFA5202CCA182300044C67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA51F2CCA182300044C67 /* ContentView.swift */; };
+		EFDFA5222CCA182500044C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDFA5212CCA182500044C67 /* Assets.xcassets */; };
+		EFDFA5252CCA182500044C67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDFA5242CCA182500044C67 /* Preview Assets.xcassets */; };
+		EFDFA5272CCA182500044C67 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA5262CCA182500044C67 /* Persistence.swift */; };
+		EFDFA52A2CCA182500044C67 /* CordeDataTarea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA5282CCA182500044C67 /* CordeDataTarea.xcdatamodeld */; };
+		EFDFA5342CCA182500044C67 /* CordeDataTareaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA5332CCA182500044C67 /* CordeDataTareaTests.swift */; };
+		EFDFA53E2CCA182500044C67 /* CordeDataTareaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA53D2CCA182500044C67 /* CordeDataTareaUITests.swift */; };
+		EFDFA5402CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA53F2CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDFA5302CCA182500044C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDFA5122CCA182300044C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDFA5192CCA182300044C67;
+			remoteInfo = CordeDataTarea;
+		};
+		EFDFA53A2CCA182500044C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDFA5122CCA182300044C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDFA5192CCA182300044C67;
+			remoteInfo = CordeDataTarea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDFA51A2CCA182300044C67 /* CordeDataTarea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CordeDataTarea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFA51D2CCA182300044C67 /* CordeDataTareaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordeDataTareaApp.swift; sourceTree = "<group>"; };
+		EFDFA51F2CCA182300044C67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFDFA5212CCA182500044C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDFA5242CCA182500044C67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFDFA5262CCA182500044C67 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EFDFA5292CCA182500044C67 /* CordeDataTarea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CordeDataTarea.xcdatamodel; sourceTree = "<group>"; };
+		EFDFA52F2CCA182500044C67 /* CordeDataTareaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CordeDataTareaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFA5332CCA182500044C67 /* CordeDataTareaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordeDataTareaTests.swift; sourceTree = "<group>"; };
+		EFDFA5392CCA182500044C67 /* CordeDataTareaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CordeDataTareaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFA53D2CCA182500044C67 /* CordeDataTareaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordeDataTareaUITests.swift; sourceTree = "<group>"; };
+		EFDFA53F2CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordeDataTareaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDFA5172CCA182300044C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFA52C2CCA182500044C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFA5362CCA182500044C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDFA5112CCA182300044C67 = {
+			isa = PBXGroup;
+			children = (
+				EFDFA51C2CCA182300044C67 /* CordeDataTarea */,
+				EFDFA5322CCA182500044C67 /* CordeDataTareaTests */,
+				EFDFA53C2CCA182500044C67 /* CordeDataTareaUITests */,
+				EFDFA51B2CCA182300044C67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDFA51B2CCA182300044C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFA51A2CCA182300044C67 /* CordeDataTarea.app */,
+				EFDFA52F2CCA182500044C67 /* CordeDataTareaTests.xctest */,
+				EFDFA5392CCA182500044C67 /* CordeDataTareaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDFA51C2CCA182300044C67 /* CordeDataTarea */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFA51D2CCA182300044C67 /* CordeDataTareaApp.swift */,
+				EFDFA51F2CCA182300044C67 /* ContentView.swift */,
+				EFDFA5212CCA182500044C67 /* Assets.xcassets */,
+				EFDFA5262CCA182500044C67 /* Persistence.swift */,
+				EFDFA5282CCA182500044C67 /* CordeDataTarea.xcdatamodeld */,
+				EFDFA5232CCA182500044C67 /* Preview Content */,
+			);
+			path = CordeDataTarea;
+			sourceTree = "<group>";
+		};
+		EFDFA5232CCA182500044C67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFA5242CCA182500044C67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFDFA5322CCA182500044C67 /* CordeDataTareaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFA5332CCA182500044C67 /* CordeDataTareaTests.swift */,
+			);
+			path = CordeDataTareaTests;
+			sourceTree = "<group>";
+		};
+		EFDFA53C2CCA182500044C67 /* CordeDataTareaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFA53D2CCA182500044C67 /* CordeDataTareaUITests.swift */,
+				EFDFA53F2CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift */,
+			);
+			path = CordeDataTareaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDFA5192CCA182300044C67 /* CordeDataTarea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDFA5432CCA182500044C67 /* Build configuration list for PBXNativeTarget "CordeDataTarea" */;
+			buildPhases = (
+				EFDFA5162CCA182300044C67 /* Sources */,
+				EFDFA5172CCA182300044C67 /* Frameworks */,
+				EFDFA5182CCA182300044C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CordeDataTarea;
+			productName = CordeDataTarea;
+			productReference = EFDFA51A2CCA182300044C67 /* CordeDataTarea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDFA52E2CCA182500044C67 /* CordeDataTareaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDFA5462CCA182500044C67 /* Build configuration list for PBXNativeTarget "CordeDataTareaTests" */;
+			buildPhases = (
+				EFDFA52B2CCA182500044C67 /* Sources */,
+				EFDFA52C2CCA182500044C67 /* Frameworks */,
+				EFDFA52D2CCA182500044C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDFA5312CCA182500044C67 /* PBXTargetDependency */,
+			);
+			name = CordeDataTareaTests;
+			productName = CordeDataTareaTests;
+			productReference = EFDFA52F2CCA182500044C67 /* CordeDataTareaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDFA5382CCA182500044C67 /* CordeDataTareaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDFA5492CCA182500044C67 /* Build configuration list for PBXNativeTarget "CordeDataTareaUITests" */;
+			buildPhases = (
+				EFDFA5352CCA182500044C67 /* Sources */,
+				EFDFA5362CCA182500044C67 /* Frameworks */,
+				EFDFA5372CCA182500044C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDFA53B2CCA182500044C67 /* PBXTargetDependency */,
+			);
+			name = CordeDataTareaUITests;
+			productName = CordeDataTareaUITests;
+			productReference = EFDFA5392CCA182500044C67 /* CordeDataTareaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDFA5122CCA182300044C67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EFDFA5192CCA182300044C67 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EFDFA52E2CCA182500044C67 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFDFA5192CCA182300044C67;
+					};
+					EFDFA5382CCA182500044C67 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFDFA5192CCA182300044C67;
+					};
+				};
+			};
+			buildConfigurationList = EFDFA5152CCA182300044C67 /* Build configuration list for PBXProject "CordeDataTarea" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDFA5112CCA182300044C67;
+			productRefGroup = EFDFA51B2CCA182300044C67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDFA5192CCA182300044C67 /* CordeDataTarea */,
+				EFDFA52E2CCA182500044C67 /* CordeDataTareaTests */,
+				EFDFA5382CCA182500044C67 /* CordeDataTareaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDFA5182CCA182300044C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFA5252CCA182500044C67 /* Preview Assets.xcassets in Resources */,
+				EFDFA5222CCA182500044C67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFA52D2CCA182500044C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFA5372CCA182500044C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDFA5162CCA182300044C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFA5272CCA182500044C67 /* Persistence.swift in Sources */,
+				EFDFA5202CCA182300044C67 /* ContentView.swift in Sources */,
+				EFDFA51E2CCA182300044C67 /* CordeDataTareaApp.swift in Sources */,
+				EFDFA52A2CCA182500044C67 /* CordeDataTarea.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFA52B2CCA182500044C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFA5342CCA182500044C67 /* CordeDataTareaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFA5352CCA182500044C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFA5402CCA182500044C67 /* CordeDataTareaUITestsLaunchTests.swift in Sources */,
+				EFDFA53E2CCA182500044C67 /* CordeDataTareaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDFA5312CCA182500044C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDFA5192CCA182300044C67 /* CordeDataTarea */;
+			targetProxy = EFDFA5302CCA182500044C67 /* PBXContainerItemProxy */;
+		};
+		EFDFA53B2CCA182500044C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDFA5192CCA182300044C67 /* CordeDataTarea */;
+			targetProxy = EFDFA53A2CCA182500044C67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFDFA5412CCA182500044C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDFA5422CCA182500044C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDFA5442CCA182500044C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CordeDataTarea/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heroguest.CordeDataTarea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDFA5452CCA182500044C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CordeDataTarea/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heroguest.CordeDataTarea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFDFA5472CCA182500044C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heroguest.CordeDataTareaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CordeDataTarea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CordeDataTarea";
+			};
+			name = Debug;
+		};
+		EFDFA5482CCA182500044C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heroguest.CordeDataTareaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CordeDataTarea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CordeDataTarea";
+			};
+			name = Release;
+		};
+		EFDFA54A2CCA182500044C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heroguest.CordeDataTareaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CordeDataTarea;
+			};
+			name = Debug;
+		};
+		EFDFA54B2CCA182500044C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = heroguest.CordeDataTareaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CordeDataTarea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDFA5152CCA182300044C67 /* Build configuration list for PBXProject "CordeDataTarea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFA5412CCA182500044C67 /* Debug */,
+				EFDFA5422CCA182500044C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDFA5432CCA182500044C67 /* Build configuration list for PBXNativeTarget "CordeDataTarea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFA5442CCA182500044C67 /* Debug */,
+				EFDFA5452CCA182500044C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDFA5462CCA182500044C67 /* Build configuration list for PBXNativeTarget "CordeDataTareaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFA5472CCA182500044C67 /* Debug */,
+				EFDFA5482CCA182500044C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDFA5492CCA182500044C67 /* Build configuration list for PBXNativeTarget "CordeDataTareaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFA54A2CCA182500044C67 /* Debug */,
+				EFDFA54B2CCA182500044C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFDFA5282CCA182500044C67 /* CordeDataTarea.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFDFA5292CCA182500044C67 /* CordeDataTarea.xcdatamodel */,
+			);
+			currentVersion = EFDFA5292CCA182500044C67 /* CordeDataTarea.xcdatamodel */;
+			path = CordeDataTarea.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFDFA5122CCA182300044C67 /* Project object */;
+}
